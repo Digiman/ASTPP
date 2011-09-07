@@ -1,0 +1,56 @@
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\bin\Debug\ProjectNSI.exe
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\bin\Debug\ProjectNSI.pdb
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ResolveAssemblyReference.cache
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.Fmain.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.Properties.Resources.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.csproj.GenerateResource.Cache
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.exe
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.pdb
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.ReferenceCatalog_Carusel.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.ReferenceCatalog_Table.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.ReferencesCatalog.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.UC_Main.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.PreferencesMain.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.AddMaterialRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.AddUnitRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.AddProductRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.AddSignRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.AddTypeRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.PrefMainView.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.AddStandartRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\bin\Debug\ProjectNSI.exe.config
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.AddProductNameRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.SQLQueryEditor.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI\ProjectNSI\obj\Debug\ProjectNSI.NodesViewer.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.exe
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.pdb
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\bin\Debug\ProjectNSI.exe
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\bin\Debug\ProjectNSI.pdb
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ResolveAssemblyReference.cache
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddProductNameRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddStandartRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddSignRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddTypeRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddProductRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddUnitRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddMaterialRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.Fmain.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.NodesViewer.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.PreferencesMain.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.PrefMainView.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.Properties.Resources.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.ReferenceCatalog_Carusel.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.ReferenceCatalog_Table.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.ReferencesCatalog.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.UC_Main.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.csproj.GenerateResource.Cache
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.PrefDB.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.PrefMainFolders.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddCompositionRowForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.ReportViewerForm.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.MaterialStandarts.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.MaterialsNeeds.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.GetReports.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.Complexity.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.Cutting.resources
+G:\Мои проекты C#\ASTPP\ProjectNSI mod1\ProjectNSI\obj\Debug\ProjectNSI.AddPlanProductsRowForm.resources

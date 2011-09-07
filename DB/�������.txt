@@ -1,0 +1,34 @@
+SELECT 
+    ProductNames.ProductKey,
+    ReferenceStandarts.MaterialCode,
+    ReferenceStandarts.ConsumptionRate * FullApplication.Count AS Consumption,
+    ReferenceStandarts.RateOfWaste * FullApplication.Count AS Wastes
+FROM 
+    FullApplication
+    INNER JOIN ReferenceStandarts ON ( FullApplication.PackageDetails = ReferenceStandarts.ProductCode )
+    INNER JOIN ReferenceMaterials ON ( ReferenceStandarts.MaterialCode = ReferenceMaterials.MaterialCode )
+    INNER JOIN ProductNames ON ( FullApplication.ProductCode = ProductNames.ProductKey );
+
+
+SELECT
+    F1 || ' ' || F2 || ' ' || F3 AS Product,
+    ProductNames.Name || ' ' ||ProductNames.Designation AS NameDes,
+    FullApplication.Count
+FROM
+    FullApplication
+    INNER JOIN ProductNames ON (FullApplication.PackageDetails = ProductNames.ProductKey)
+    INNER JOIN (SELECT ProductNames.ProductKey AS F1, ProductNames.Name AS F2, ProductNames.Designation AS F3 
+                FROM ProductNames) ON (FullApplication.ProductCode = F1)
+
+
+
+SELECT 
+    ProductNames.ProductKey || ' ' || ProductNames.Name || ' ' || ProductNames.Designation AS Product,
+    ReferenceStandarts.MaterialCode || ' ' || ReferenceMaterials.Name AS Material,
+    ReferenceStandarts.ConsumptionRate * FullApplication.Count AS Consumption,
+    ReferenceStandarts.RateOfWaste * FullApplication.Count AS Wastes
+FROM 
+    FullApplication
+    INNER JOIN ReferenceStandarts ON ( FullApplication.PackageDetails = ReferenceStandarts.ProductCode )
+    INNER JOIN ReferenceMaterials ON ( ReferenceStandarts.MaterialCode = ReferenceMaterials.MaterialCode )
+    INNER JOIN ProductNames ON ( FullApplication.ProductCode = ProductNames.ProductKey );

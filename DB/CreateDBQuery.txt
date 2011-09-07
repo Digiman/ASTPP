@@ -1,0 +1,131 @@
+Запрос для создания новой БД с заданной структурой и связями
+
+CREATE TABLE ProductTypes (
+  "Key"  integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  Name   varchar(30) NOT NULL
+);
+CREATE TABLE ReferenceProducts (
+  "Key"  integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  Name   varchar(30) NOT NULL
+);
+CREATE TABLE ReferenceUnits (
+  "Key"      integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  FullName   varchar(20) NOT NULL,
+  SmallName  varchar(5) NOT NULL
+);
+CREATE TABLE ReferenceSigns (
+  "Key"  integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  Name   varchar(30) NOT NULL
+);
+CREATE TABLE ReferenceMaterials (
+  MaterialCode  integer PRIMARY KEY NOT NULL,
+  Name          varchar(50) NOT NULL,
+  UnitType      integer NOT NULL,
+  /* Foreign keys */
+  FOREIGN KEY (UnitType)
+    REFERENCES ReferenceUnits("Key")
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION
+);
+CREATE TABLE ReferenceStandards (
+  ProductCode      integer PRIMARY KEY NOT NULL,
+  MaterialCode     integer NOT NULL,
+  ConsumptionRate  integer NOT NULL DEFAULT 0,
+  RateOfWaste      integer NOT NULL DEFAULT 0,
+  /* Foreign keys */
+  FOREIGN KEY (MaterialCode)
+    REFERENCES ReferenceMaterials(MaterialCode)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION
+);
+CREATE TABLE ProductNames (
+  ProductKey   integer PRIMARY KEY NOT NULL,
+  Name         varchar(50) NOT NULL,
+  Designation  varchar(50) NOT NULL,
+  ViewCode     integer NOT NULL,
+  TypeCode     integer NOT NULL,
+  CodeTag      integer NOT NULL,
+  /* Foreign keys */
+  FOREIGN KEY (ProductKey)
+    REFERENCES ReferenceStandards(ProductCode)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE, 
+  FOREIGN KEY (TypeCode)
+    REFERENCES ProductTypes("Key")
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION, 
+  FOREIGN KEY (ViewCode)
+    REFERENCES ReferenceProducts("Key")
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION, 
+  FOREIGN KEY (CodeTag)
+    REFERENCES ReferenceSigns("Key")
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION
+);
+
+//----------------------------------------------------------------------------------------
+
+CREATE TABLE 'ProductTypes' (
+  'Key'  integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  'Name'   varchar(30) NOT NULL
+);
+CREATE TABLE 'ReferenceProducts' (
+  'Key'  integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  'Name'   varchar(30) NOT NULL
+);
+CREATE TABLE 'ReferenceUnits' (
+  'Key'      integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  'FullName'   varchar(20) NOT NULL,
+  'SmallName'  varchar(5) NOT NULL
+);
+CREATE TABLE 'ReferenceSigns' (
+  'Key'  integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  'Name'   varchar(30) NOT NULL
+);
+CREATE TABLE 'ReferenceMaterials' (
+  'MaterialCode'  integer PRIMARY KEY NOT NULL,
+  'Name'          varchar(50) NOT NULL,
+  'UnitType'      integer NOT NULL,
+  /* Foreign keys */
+  FOREIGN KEY (UnitType)
+    REFERENCES ReferenceUnits('Key')
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION
+);
+CREATE TABLE 'ReferenceStandards' (
+  'ProductCode'      integer PRIMARY KEY NOT NULL,
+  'MaterialCode'     integer NOT NULL,
+  'ConsumptionRate'  integer NOT NULL DEFAULT 0,
+  'RateOfWaste'      integer NOT NULL DEFAULT 0,
+  /* Foreign keys */
+  FOREIGN KEY ('MaterialCode')
+    REFERENCES ReferenceMaterials('MaterialCode')
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION
+);
+CREATE TABLE 'ProductNames' (
+  'ProductKey'   integer PRIMARY KEY NOT NULL,
+  'Name'         varchar(50) NOT NULL,
+  'Designation'  varchar(50) NOT NULL,
+  'ViewCode'     integer NOT NULL,
+  'TypeCode'     integer NOT NULL,
+  'CodeTag'      integer NOT NULL,
+  /* Foreign keys */
+  FOREIGN KEY ('ProductKey')
+    REFERENCES ReferenceStandards('ProductCode')
+    ON DELETE CASCADE
+    ON UPDATE CASCADE, 
+  FOREIGN KEY ('TypeCode')
+    REFERENCES ProductTypes('Key')
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION, 
+  FOREIGN KEY ('ViewCode')
+    REFERENCES ReferenceProducts('Key')
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION, 
+  FOREIGN KEY ('CodeTag')
+    REFERENCES ReferenceSigns('Key')
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION
+);

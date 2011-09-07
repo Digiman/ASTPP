@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IsAutoOpenDB>true</IsAutoOpenDB>
+  <DB>G:\Мои проекты C#\ASTPP\Program\DB\ProjectNSIDB.db3</DB>
+  <FilesCatalog>G:\Мои проекты C#\ASTPP\Program\DB\</FilesCatalog>
+  <DBCatalog>G:\Мои проекты C#\ASTPP\Program\Files\</DBCatalog>
+  <ThemeName>Telerik</ThemeName>
+  <LastWorkDate>2011-09-07T20:26:58.3444+03:00</LastWorkDate>
+</Settings>
